@@ -3,8 +3,8 @@ async function GetData(){
     const data = await response.json();
     const {setup, punchline} = data;
 
-    document.getElementById('set').textContent=setup;
-    document.getElementById('punch').textContent=punchline;
+    document.getElementById('setup').textContent=setup;
+    document.getElementById('punchline').textContent=punchline;
 
 }
 
